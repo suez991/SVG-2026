@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://cqpwvefrpe0n7"]
+
+[ext_resource type="Script" uid="uid://luqsxxjocyfj" path="res://scripts/post_menu.gd" id="1_fevs8"]
+[ext_resource type="AudioStream" uid="uid://g54vuauf7uq5" path="res://Assets/Audio/Audio Post Menu.mp3" id="2_1ol0p"]
+[ext_resource type="VideoStream" uid="uid://bj0y8r2ob4n1l" path="res://Assets/Video/Prologo.ogv" id="3_1ol0p"]
+[ext_resource type="AudioStream" uid="uid://cpebxdjso7e28" path="res://Assets/Audio/Audio-Prologo2.ogg" id="3_mr83k"]
+
+[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_5w2ra"]
+file = "res://Assets/Video/Video-Post-Menu.ogv"
+
+[node name="PostMenu" type="Node2D" unique_id=937211319]
+script = ExtResource("1_fevs8")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=2007855277]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.025
+offset_top = -7.0
+offset_right = 1280.025
+offset_bottom = 720.01
+grow_horizontal = 2
+grow_vertical = 2
+stream = SubResource("VideoStreamTheora_5w2ra")
+autoplay = true
+expand = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="VideoStreamPlayer" unique_id=2001812454]
+stream = ExtResource("2_1ol0p")
+autoplay = true
+
+[node name="VideoStreamPlayer2" type="VideoStreamPlayer" parent="." unique_id=258956049]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_right = 1280.0
+offset_bottom = 719.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("3_1ol0p")
+expand = true
+
+[node name="Sottofondo" type="AudioStreamPlayer" parent="." unique_id=708048551]
+stream = ExtResource("3_mr83k")
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
+[connection signal="finished" from="VideoStreamPlayer2" to="." method="_on_video_stream_player_2_finished"]

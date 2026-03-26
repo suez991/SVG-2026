@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cmvnembw0voaw"
+path="res://.godot/imported/Sistema Porta_m.ogg-97597ff2fa635dbf0f9a47e56d8feb10.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/Sistema Porta_m.ogg"
+dest_files=["res://.godot/imported/Sistema Porta_m.ogg-97597ff2fa635dbf0f9a47e56d8feb10.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

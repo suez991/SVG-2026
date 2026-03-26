@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://3b75reufoy48"]
+
+[ext_resource type="Script" uid="uid://xdkyqv5b0y6i" path="res://scripts/hud.gd" id="1_sd512"]
+
+[node name="Hud" type="CanvasLayer" unique_id=94551791]
+visible = false
+script = ExtResource("1_sd512")
+
+[node name="CounterLabel" type="Label" parent="." unique_id=1202514581]
+offset_left = 11.0
+offset_top = 6.0
+offset_right = 197.0
+offset_bottom = 29.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 20
+
+[node name="CounterLabel2" type="Label" parent="." unique_id=9600542]
+offset_left = 11.0
+offset_top = 33.0
+offset_right = 197.0
+offset_bottom = 61.000015
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 20
+
+[node name="CounterLabel3" type="Label" parent="." unique_id=996213875]
+offset_left = 11.0
+offset_top = 60.0
+offset_right = 197.0
+offset_bottom = 88.00001
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 20
+
+[node name="FixLabel" type="Label" parent="." unique_id=748837872]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -36.0
+offset_top = 5.36
+offset_right = 39.0
+offset_bottom = 28.36
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 20
+
+[node name="InteractLabel" type="Label" parent="." unique_id=144895947]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -91.0
+offset_top = -34.919983
+offset_right = 91.0
+offset_bottom = -11.919983
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 20
+text = "Premi [E] per Sistemare"
+horizontal_alignment = 1

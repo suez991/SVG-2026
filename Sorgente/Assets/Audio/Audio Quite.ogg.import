@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c0x8ek3346dag"
+path="res://.godot/imported/Audio Quite.ogg-fff2be3ab1c0fef8e8f199b75e84d163.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audio/Audio Quite.ogg"
+dest_files=["res://.godot/imported/Audio Quite.ogg-fff2be3ab1c0fef8e8f199b75e84d163.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

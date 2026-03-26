@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://q86m42l8ae5"]
+
+[ext_resource type="Script" uid="uid://djnur0pwu3xi7" path="res://scripts/vittoria.gd" id="1_ca0at"]
+[ext_resource type="VideoStream" uid="uid://bgqcppovrybl7" path="res://Assets/Video/Split2.ogv" id="1_p5r8t"]
+[ext_resource type="AudioStream" uid="uid://cpebxdjso7e28" path="res://Assets/Audio/Audio-Prologo2.ogg" id="3_j7a3i"]
+
+[node name="Vittoria" type="Node2D" unique_id=1610358561]
+script = ExtResource("1_ca0at")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=39091902]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1280.0
+offset_bottom = 723.58
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_p5r8t")
+autoplay = true
+expand = true
+
+[node name="Sottofondo" type="AudioStreamPlayer" parent="." unique_id=1301079101]
+stream = ExtResource("3_j7a3i")
+autoplay = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

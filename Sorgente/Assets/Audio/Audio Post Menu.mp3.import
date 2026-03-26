@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://g54vuauf7uq5"
+path="res://.godot/imported/Audio Post Menu.mp3-79543eabf57334a118e6c76b36fb5b91.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Audio Post Menu.mp3"
+dest_files=["res://.godot/imported/Audio Post Menu.mp3-79543eabf57334a118e6c76b36fb5b91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

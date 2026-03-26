@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://lju8rbqgrtpf"]
+
+[ext_resource type="PackedScene" uid="uid://do0880v21k6vk" path="res://Scenes/player.tscn" id="1_ebmjs"]
+
+[node name="Game" type="Node" unique_id=293001498]
+
+[node name="Player" parent="." unique_id=1407348914 instance=ExtResource("1_ebmjs")]
+walk_speed = 4.0

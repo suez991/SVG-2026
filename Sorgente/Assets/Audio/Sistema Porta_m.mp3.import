@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bscsias837s2g"
+path="res://.godot/imported/Sistema Porta_m.mp3-2cf900aa3abe4c8483b92861b7af82e0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sistema Porta_m.mp3"
+dest_files=["res://.godot/imported/Sistema Porta_m.mp3-2cf900aa3abe4c8483b92861b7af82e0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
